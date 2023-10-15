@@ -29,11 +29,11 @@ const SearchBar = () => {
 
         if (!isValidLink) return alert('Please enter a valid Amazon product link');
 
+        try {
+            setIsLoading(true);
         // Scrape the product page
         const product = await scrapeAndStoreProduct(searchPrompt);
 
-        try {
-            setIsLoading(true);
         } catch (error) {
             console.log(error);
             
