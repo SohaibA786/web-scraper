@@ -16,11 +16,11 @@ const Navbar = () => {
                         src='/assets/icons/logo.svg'
                         height={27}
                         width={27}
-                        alt='Pricewise Logo'
+                        alt='Pricewatch Logo'
                     />
                     <p className='nav-logo'>
                         Price<span className='text-primary'>
-                            Wise
+                            Watch
                         </span>
                     </p>
                 </Link>
