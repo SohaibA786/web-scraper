@@ -23,6 +23,12 @@ export default function RootLayout({
           <Navbar />
           {children}
         </main>
+        <footer
+          className='flex flex-col justify-center items-center p-10 relative bg-black text-white text-center'
+        >
+          <p>Copyright © PRICEWATCH 2023. All rights reserved.</p>
+          <p>Made with 🤍 by <a href='https://linkedin.com/in/engr-sohaib' target='_blank' className='underline'>Engr. Sohaib</a></p>
+        </footer>
       </body>
     </html>
   )
